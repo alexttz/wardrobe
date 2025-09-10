@@ -1,4 +1,6 @@
 package dev.java.Wardrobe.repository;
 
-public class ClothRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClothRepository extends JpaRepository{
 }

@@ -14,6 +14,13 @@ public class Clothes {
     private String color; // Cor da roupa
     private String model; // Modelo (ex: Regata)
     private String size; // Tamanho (ex: Large, Medium, Small, Extra Large)
+
+    // Construtor vazio
+    public Clothes() {
+    }
+    
+    // Construtor com parâmetros, gets e sets vão retornar os valores e definir os valores das variáveis
+
     
     public long getId() {
         return id;
