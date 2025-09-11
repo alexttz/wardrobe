@@ -1,11 +1,8 @@
-spring.application.name=Wardrobe
-application.yml
-
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
-    username: dbuser
+    username: sa
     password:
   h2:
     console:
